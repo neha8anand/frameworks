@@ -7,8 +7,6 @@ import pandas as pd
 from sklearn.cluster import KMeans
 from sklearn.metrics.pairwise import cosine_similarity
 
-from nltk.corpus import stopwords
-
 class MyModel():
     """A clustering model to identify research areas given information about papers:
         - cleans the json dataset
